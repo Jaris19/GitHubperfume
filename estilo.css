@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e8f1ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card */
+.product-card {
+    width: 280px;
+    border: 3px solid #6f9f8d;
+    background-color: #fff;
+}
+
+/* Image */
+.image-container {
+    padding: 20px;
+    background-color: white;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+/* Info section */
+.product-info {
+    background-color: #f8efe8;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-info h3 {
+    color: #c9a14a;
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.product-info p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.price {
+    display: block;
+    color: #c9a14a;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    background-color: #e1b12c;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #c99b1f;
+}
